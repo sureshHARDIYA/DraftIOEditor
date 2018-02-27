@@ -1,0 +1,17 @@
+.plugined-editor-align {
+
+    @mixin align($alignment) {
+        &-#{$alignment} {
+            text-align: $alignment;
+
+            .public-DraftStyleDefault-block {
+                text-align: $alignment;
+            }
+        }
+    }
+
+    @include align(left);
+    @include align(right);
+    @include align(center);
+    @include align(justify);
+}
