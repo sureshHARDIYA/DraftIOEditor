@@ -7,7 +7,7 @@
     "draft-js-editor",
     "draft-js-plugins",
     "draft-js-plugin-editor",
-    "draft-io-js-editor"
+    "draft-io-js-editor",
     "draft-io-editor"
   ],
   "main": "dist/PluginedEditor.js",
